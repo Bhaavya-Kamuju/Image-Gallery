@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" context="width=device-width,initial scale=1.0">
+        <title>Image Gallery</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                text-align: center;
+                margin: 20px;
+            }
+            h1{
+                color:#333;
+            }
+            .gallery{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .gallery-item{
+                margin: 10px;
+            }
+            .gallery-item img{
+                width: 100px;
+                height: 100px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: transform 0.3s;
+            }
+            .gallery-item img:hover{
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Image Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower1.jpeg" target="_blank">
+                    <img src="C:\MSD\html\images\flower1.jpeg" alt="image1">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower2.jpg" target="_blank">
+                    <img src="C:\MSD\html\images\flower2.jpg" alt="image2">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower3.jpeg" target="_blank">
+                    <img src="C:\MSD\html\images\flower3.jpeg" alt="image3">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower4.jpg" target="_blank">
+                    <img src="C:\MSD\html\images\flower4.jpg" alt="image4">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower5.jpeg" target="_blank">
+                    <img src="C:\MSD\html\images\flower5.jpeg" alt="image5">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower6.jpg" target="_blank">
+                    <img src="C:\MSD\html\images\flower6.jpg" alt="image6">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower7.avif" target="_blank">
+                    <img src="C:\MSD\html\images\flower7.avif" alt="image7">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="C:\MSD\html\images\flower8.jpg" target="_blank">
+                    <img src="C:\MSD\html\images\flower8.jpg" alt="image8">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
